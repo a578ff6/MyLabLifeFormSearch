@@ -9,21 +9,35 @@
 /* Begin PBXBuildFile section */
 		934F4DA72AFD391C0029B683 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934F4DA62AFD391C0029B683 /* AppDelegate.swift */; };
 		934F4DA92AFD391C0029B683 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934F4DA82AFD391C0029B683 /* SceneDelegate.swift */; };
-		934F4DAB2AFD391C0029B683 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934F4DAA2AFD391C0029B683 /* ViewController.swift */; };
 		934F4DAE2AFD391C0029B683 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 934F4DAC2AFD391C0029B683 /* Main.storyboard */; };
 		934F4DB02AFD391D0029B683 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 934F4DAF2AFD391D0029B683 /* Assets.xcassets */; };
 		934F4DB32AFD391D0029B683 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 934F4DB12AFD391D0029B683 /* LaunchScreen.storyboard */; };
+		934F4DBB2AFD660D0029B683 /* EOLSearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934F4DBA2AFD660D0029B683 /* EOLSearchTableViewController.swift */; };
+		934F4DBD2AFD66370029B683 /* EOLItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934F4DBC2AFD66370029B683 /* EOLItemViewController.swift */; };
+		934F4DBF2AFDFB900029B683 /* EOLController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934F4DBE2AFDFB900029B683 /* EOLController.swift */; };
+		934F4DC12AFE0DC80029B683 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934F4DC02AFE0DC80029B683 /* APIService.swift */; };
+		934F4DC32AFE0DEC0029B683 /* APIRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934F4DC22AFE0DEC0029B683 /* APIRequest.swift */; };
+		934F4DC52AFE169D0029B683 /* EOLItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934F4DC42AFE169D0029B683 /* EOLItem.swift */; };
+		934F4DC72AFE432C0029B683 /* EOLItemDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934F4DC62AFE432C0029B683 /* EOLItemDetail.swift */; };
+		934F4DC92AFE7C6A0029B683 /* EOLHierarchy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934F4DC82AFE7C6A0029B683 /* EOLHierarchy.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		934F4DA32AFD391C0029B683 /* MyLabLifeFormSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyLabLifeFormSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		934F4DA62AFD391C0029B683 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		934F4DA82AFD391C0029B683 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		934F4DAA2AFD391C0029B683 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		934F4DAD2AFD391C0029B683 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		934F4DAF2AFD391D0029B683 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		934F4DB22AFD391D0029B683 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		934F4DB42AFD391D0029B683 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		934F4DBA2AFD660D0029B683 /* EOLSearchTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EOLSearchTableViewController.swift; sourceTree = "<group>"; };
+		934F4DBC2AFD66370029B683 /* EOLItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EOLItemViewController.swift; sourceTree = "<group>"; };
+		934F4DBE2AFDFB900029B683 /* EOLController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EOLController.swift; sourceTree = "<group>"; };
+		934F4DC02AFE0DC80029B683 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		934F4DC22AFE0DEC0029B683 /* APIRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRequest.swift; sourceTree = "<group>"; };
+		934F4DC42AFE169D0029B683 /* EOLItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EOLItem.swift; sourceTree = "<group>"; };
+		934F4DC62AFE432C0029B683 /* EOLItemDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EOLItemDetail.swift; sourceTree = "<group>"; };
+		934F4DC82AFE7C6A0029B683 /* EOLHierarchy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EOLHierarchy.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +70,46 @@
 		934F4DA52AFD391C0029B683 /* MyLabLifeFormSearch */ = {
 			isa = PBXGroup;
 			children = (
+				934F4DCC2AFF81E10029B683 /* Networking */,
+				934F4DCB2AFF81C20029B683 /* Controllers */,
+				934F4DCA2AFF81A80029B683 /* Models */,
 				934F4DA62AFD391C0029B683 /* AppDelegate.swift */,
 				934F4DA82AFD391C0029B683 /* SceneDelegate.swift */,
-				934F4DAA2AFD391C0029B683 /* ViewController.swift */,
-				934F4DAC2AFD391C0029B683 /* Main.storyboard */,
 				934F4DAF2AFD391D0029B683 /* Assets.xcassets */,
 				934F4DB12AFD391D0029B683 /* LaunchScreen.storyboard */,
 				934F4DB42AFD391D0029B683 /* Info.plist */,
+				934F4DAC2AFD391C0029B683 /* Main.storyboard */,
 			);
 			path = MyLabLifeFormSearch;
+			sourceTree = "<group>";
+		};
+		934F4DCA2AFF81A80029B683 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				934F4DC42AFE169D0029B683 /* EOLItem.swift */,
+				934F4DC62AFE432C0029B683 /* EOLItemDetail.swift */,
+				934F4DC82AFE7C6A0029B683 /* EOLHierarchy.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		934F4DCB2AFF81C20029B683 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				934F4DBA2AFD660D0029B683 /* EOLSearchTableViewController.swift */,
+				934F4DBC2AFD66370029B683 /* EOLItemViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		934F4DCC2AFF81E10029B683 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				934F4DC02AFE0DC80029B683 /* APIService.swift */,
+				934F4DBE2AFDFB900029B683 /* EOLController.swift */,
+				934F4DC22AFE0DEC0029B683 /* APIRequest.swift */,
+			);
+			path = Networking;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +183,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				934F4DAB2AFD391C0029B683 /* ViewController.swift in Sources */,
+				934F4DBF2AFDFB900029B683 /* EOLController.swift in Sources */,
+				934F4DC32AFE0DEC0029B683 /* APIRequest.swift in Sources */,
+				934F4DC72AFE432C0029B683 /* EOLItemDetail.swift in Sources */,
+				934F4DBD2AFD66370029B683 /* EOLItemViewController.swift in Sources */,
 				934F4DA72AFD391C0029B683 /* AppDelegate.swift in Sources */,
+				934F4DBB2AFD660D0029B683 /* EOLSearchTableViewController.swift in Sources */,
+				934F4DC12AFE0DC80029B683 /* APIService.swift in Sources */,
 				934F4DA92AFD391C0029B683 /* SceneDelegate.swift in Sources */,
+				934F4DC92AFE7C6A0029B683 /* EOLHierarchy.swift in Sources */,
+				934F4DC52AFE169D0029B683 /* EOLItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
